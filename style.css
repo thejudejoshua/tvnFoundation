@@ -16,12 +16,12 @@ header section
 ----
 */
 
-header {
+header#home {
     width: 100%;
     height: 100%;
     left: 0px;
     top: 0px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('./img/homeBanner.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url('/img/homeBanner.jpg');
     background-size: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ header {
     align-items: center;
     gap: 30px;
     position: absolute;
-    top: 30%;
+    top: 27%;
 }
 
 .home_text {
@@ -185,7 +185,7 @@ input.amt:checked+label.amt-hold {
 
 .landing-title {
     flex-grow: 0;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -193,6 +193,7 @@ input.amt:checked+label.amt-hold {
     letter-spacing: normal;
     text-align: left;
     color: #fff;
+    width: 630px;
 }
 
 .landing_donate {
@@ -238,13 +239,12 @@ img.logo {
 
 .links {
     width: auto;
-    display: inline-table;
+    display: inline-block;
 }
 
 .links a {
     flex-grow: 0;
     font-family: Jost;
-    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -252,6 +252,22 @@ img.logo {
     text-align: left;
     color: #000;
     padding: 0 15px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.links a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #10653d;
+    display: block;
+    transition: 0.8s;
+}
+
+.links a:hover::after,
+.links a.active::after {
+    width: 70%;
 }
 
 .navButton {
@@ -264,6 +280,13 @@ img.logo {
     font-weight: 900;
     color: #834820;
     cursor: pointer;
+    transition: 0.8s;
+}
+
+.navButton:hover,
+.navButton.active {
+    background: #834820;
+    color: #fff;
 }
 
 .navButton.variant {
@@ -271,6 +294,12 @@ img.logo {
     box-shadow: 4px 2px 30px 2px rgba(0, 0, 0, 0.1);
     border-color: #10653d;
     margin-left: 10px;
+}
+
+.navButton.variant:hover,
+.navButton.variant.active {
+    background: #10653d;
+    color: #fff;
 }
 
 .navButton span {
@@ -303,6 +332,13 @@ about section section
 ----
 */
 
+section#about {
+    background-image: url(/img/about-bground-float.svg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
 .bodyBanner {
     width: 100%;
     height: auto;
@@ -311,6 +347,12 @@ about section section
     justify-content: center;
     align-items: center;
     padding: 160px 70px 60px;
+}
+
+main#home .bodyBanner p {
+    width: 70%;
+    font-size: 30px;
+    line-height: 1.85;
 }
 
 h2 {
@@ -322,15 +364,16 @@ h2 {
     letter-spacing: normal;
     text-align: left;
     color: #10653d;
+    font-family: 'Jost';
 }
 
 .bodyBanner p {
-    width: 75%;
-    font-size: 30px;
+    width: 85%;
+    font-size: 21px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.85;
+    line-height: 50px;
     letter-spacing: normal;
     text-align: center;
     color: #404040;
@@ -348,6 +391,7 @@ h2 {
     transition: 0.8s;
     text-transform: capitalize;
     cursor: pointer;
+    display: inline-block;
 }
 
 .ctaButton:hover {
@@ -473,14 +517,14 @@ Options section
 }
 
 .options {
-    width: 378px;
+    width: 31%;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
-    padding: 10px 30px 30px;
+    padding: 10px 0px 30px;
 }
 
 .options h3 {
@@ -529,7 +573,7 @@ Gift shop section
     align-items: center;
     gap: 60px;
     padding: 120px 70px;
-    background: url(./img/gift_backdrop.png) no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(273.12deg, #874D27 53.09%, #D09540 89.42%);
+    background: url('/img/gift_backdrop.png') no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(273.12deg, #874D27 53.09%, #D09540 89.42%);
     background-position: right bottom;
 }
 
@@ -643,13 +687,14 @@ Events banner section
 .events h1 {
     flex-grow: 0;
     font-size: 90px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 0.65;
     letter-spacing: normal;
     text-align: left;
     color: #404040;
+    font-family: Jost;
 }
 
 .events h3 {
@@ -782,22 +827,24 @@ help section
     align-items: flex-start;
     gap: 40px;
     padding: 0;
+    height: auto;
 }
 
 h3 {
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 2.17;
     letter-spacing: normal;
     text-align: left;
     color: #10653d;
+    font-family: 'Jost';
 }
 
 .help-section_right p {
     font-size: 23px;
-    font-weight: normal;
+    font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.74;
@@ -824,6 +871,11 @@ h3 {
 .help_cta .ctaButton:hover {
     background: #10653d;
     color: #ffffff;
+}
+
+.help_cta .ctaButton.colored:hover {
+    color: #10653d;
+    background: #ffffff;
 }
 
 
@@ -881,7 +933,7 @@ newsletter section
 }
 
 .newsletter_ctA input {
-    width: 341px;
+    width: 37%;
     outline: none;
     flex-grow: 0;
     display: flex;
@@ -889,7 +941,7 @@ newsletter section
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    padding: 22px 150px 22px 40px;
+    padding: 22px 30px 22px 30px;
     border-radius: 40px;
     border: solid 1px #10653d;
     font-size: 14px;
@@ -920,7 +972,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 150px 70px;
-    background: url(./img/footer_backdrop.png) no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(273.12deg, #874D27 53.09%, #D09540 89.42%);
+    background: url('/img/footer_backdrop.png') no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(273.12deg, #874D27 53.09%, #D09540 89.42%);
     background-position: right bottom;
 }
 
@@ -1101,4 +1153,256 @@ copyright section
 
 .shortLinks li:nth-of-type(1) {
     list-style: none;
+}
+
+
+/*
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+contact page
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+*/
+
+#breadcrumb {
+    width: 100%;
+    left: 0px;
+    padding: 200px 70px 100px;
+    background: linear-gradient(89.06deg, #FFFFFF 3.82%, #E6F7EE 68.61%);
+}
+
+#breadcrumb h1,
+.contactBanner h1 {
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #10653d;
+}
+
+#breadcrumb p {
+    text-align: center;
+}
+
+main:not(#home) .options {
+    text-align: center;
+    align-items: center;
+}
+
+main:not(#home) .options-holder {
+    padding-bottom: 100px;
+}
+
+main:not(#home) .options p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-form-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 70px;
+    padding: 100px 100px;
+    background: linear-gradient(89.06deg, #FFFFFF 3.82%, #E6F7EE 68.61%);
+}
+
+.contactBanner {
+    width: 48%;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 30px 0 0;
+    gap: 40px;
+}
+
+.contactBanner h1 {
+    text-align: left;
+    font-size: 40px;
+    font-family: Jost;
+}
+
+.contactForm_text {
+    width: 100%;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 0;
+}
+
+.contactForm_text p {
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+}
+
+main#contact .contact-form_ctA {
+    background: #fff;
+    width: 50%;
+    padding: 50px;
+    box-shadow: 0px 5px 30px 10px rgba(16, 101, 61, 0.1);
+    border-radius: 20px;
+}
+
+.contact-form_ctA .form-input {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contact-form_ctA .form-input label {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.contact-form_ctA .form-input input,
+.contact-form_ctA .form-input select {
+    width: 100%;
+    outline: none;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 22px 40px 22px 18px;
+    border-radius: 40px;
+    border: solid 1px #10653d;
+    font-size: 14px;
+}
+
+.contact-form_ctA .form-input.dual .dual-kit {
+    width: 48%;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+.contact-form_ctA .form-input.dual .dual-kit:last-child {
+    margin-right: 0;
+}
+
+.contact-form_ctA .form-input textarea {
+    width: 100%;
+    height: 230px;
+    outline: none;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 22px 40px 22px 18px;
+    border-radius: 30px;
+    border: solid 1px #10653d;
+    font-size: 14px;
+    resize: none;
+}
+
+
+/*
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+about us page
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+*/
+
+.options-holder.about {
+    background: linear-gradient(89.06deg, #FFFFFF 3.82%, #E6F7EE 68.61%);
+}
+
+section#about div.help-section {
+    background: none;
+}
+
+section#about div.help-section_right {
+    width: 45%;
+}
+
+
+/*
+----
+objectives section
+----
+*/
+
+section#objectives {
+    background-image: url(/img/about-bground-float.svg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+section#objectives .bodyBanner ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+section#objectives .bodyBanner ul li {
+    list-style-type: disc;
+    color: #000;
+    width: 45%;
+    margin-right: 10%;
+}
+
+section#objectives .bodyBanner ul li:last-child {
+    margin-right: 0;
+}
+
+section#objectives .bodyBanner p {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    word-break: break-word;
+}
+
+
+/*
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+about us page
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+*/
+
+#contact.donate .contact-form_ctA {
+    box-shadow: none;
+    border-left: 1px solid #dfdfdf;
+    border-radius: 0;
+    padding: 0 20px 20px 60px;
+    width: 60%;
+}
+
+#contact.donate .contactBanner {
+    width: 38%;
+    padding-right: 0;
+}
+
+#contact.donate .contact-form-holder {
+    background: #fff;
 }
