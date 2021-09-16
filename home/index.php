@@ -232,10 +232,9 @@
             </div>
             <div class="help_cta">
                 <a href="/donate" class="ctaButton">Donate</a>
-                <a href="" class="ctaButton colored">Partner with Us</a>
+                <a href="/contact" class="ctaButton colored">Partner with Us</a>
             </div>
         </div>
     </section>
-
 
 <?php include_once '../footer.php'?>

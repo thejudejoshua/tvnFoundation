@@ -18,8 +18,8 @@
                     <p>Support the fight against cancer through research and educational efforts relating to the prevention and early detection of cancer.</p>
                 </div>
                 <div class="help_cta">
-                    <a href="" class="ctaButton">Donate</a>
-                    <a href="" class="ctaButton colored">Partner with Us</a>
+                    <a href="/donate" class="ctaButton">Donate</a>
+                    <a href="/contact" class="ctaButton colored">Partner with Us</a>
                 </div>
             </div>
             <div class="help-section_left">
