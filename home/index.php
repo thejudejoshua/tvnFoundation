@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="Line-7"></div>
-                    <button type="button" class="ctaButton colored">Make your Donation</button>
+                    <a href="/donate" type="button" class="ctaButton colored">Make your Donation</a>
                 </div>
             </form>
         </div>
@@ -117,7 +117,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.</p>
                     </div>
                 </div>
-                <a href="" class="ctaButton">Donate</a>
+                <a href="/donate" class="ctaButton">Donate</a>
             </div>
         </div>
     </section>
@@ -231,7 +231,7 @@
                 <p>Say YES to a world where we no longer have to lose loved ones to menace of cancer.</p>
             </div>
             <div class="help_cta">
-                <a href="" class="ctaButton">Donate</a>
+                <a href="/donate" class="ctaButton">Donate</a>
                 <a href="" class="ctaButton colored">Partner with Us</a>
             </div>
         </div>

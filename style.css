@@ -524,7 +524,7 @@ Options section
     justify-content: flex-start;
     align-items: flex-start;
     gap: 30px;
-    padding: 10px 0px 30px;
+    padding: 10px 20px 30px 0;
 }
 
 .options h3 {
