@@ -1394,7 +1394,7 @@ about us page
     box-shadow: none;
     border-left: 1px solid #dfdfdf;
     border-radius: 0;
-    padding: 0 20px 20px 60px;
+    padding: 15px 20px 20px 60px;
     width: 60%;
 }
 
@@ -1405,4 +1405,19 @@ about us page
 
 #contact.donate .contact-form-holder {
     background: #fff;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0 50px;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+hr:nth-of-type(2) {
+    margin-top: 50px;
+}
+
+.button.form-group .form-input {
+    margin-bottom: 0;
 }

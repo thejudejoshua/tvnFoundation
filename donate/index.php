@@ -37,31 +37,69 @@
                     <label for="first-name">Enter other amount</label>
                     <input id="amt5" name="amt" type="text" placeholder="Enter other amount...">
                 </div>
-            </div>            
-            <div class="form-input dual">
-                <label for="first-name">Name (Required)</label>
-                <div>
-                    <div class="dual-kit">
-                        <input type="text" placeholder="First Name" id="first-name">
+            </div>
+            <hr/>
+            <div class="form-group">
+                <h5>Are you making this donation in honor of someone?</h5>
+                <div class="row">
+                    <div class="row-amt">
+                        <input id="amt1" name="amt" class="amt" type="radio" value="50">
+                        <label class="amt-hold" for="amt1">Yes</label>
                     </div>
-                    <div class="dual-kit">
-                        <input type="text" placeholder="Last Name" id="last-name">
+                    <div class="row-amt">
+                        <input id="amt2" name="amt" class="amt" type="radio" value="100">
+                        <label class="amt-hold" for="amt2">No</label>
                     </div>
                 </div>
             </div>
-            <div class="form-input">
-                <label for="email">Email (Required)</label>
-                <input type="email" placeholder="Email" id="email">
+            <hr>
+            <div class="form-group">
+                <h5>Enter your information below</h5>
+                <div class="form-input dual">
+                    <label for="first-name">Name (Required)</label>
+                    <div>
+                        <div class="dual-kit">
+                            <input type="text" placeholder="First Name" id="first-name">
+                        </div>
+                        <div class="dual-kit">
+                            <input type="text" placeholder="Last Name" id="last-name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email (Required)</label>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+                <div class="form-input">
+                    <label for="phone-number">Phone Number (Not Required)</label>
+                    <input type="tel" placeholder="Phone Number" id="phone-number">
+                </div>
+                <div class="form-input">
+                    <label for="message">Comments (Not Required)</label>
+                    <textarea placeholder="Message" id="message"></textarea>
+                </div>
             </div>
-            <div class="form-input">
-                <label for="phone-number">Phone Number (Not Required)</label>
-                <input type="tel" placeholder="Phone Number" id="phone-number">
+            <hr>
+            <div class="button form-group">
+                <h5>Make donation with</h5>
+                <div class="form-input dual">
+                    <div>
+                        <div class="dual-kit">
+                            <button type="button" class="ctaButton colored">Credit Card</button>
+                        </div>
+                        <div class="dual-kit">
+                            <button type="button" class="ctaButton colored">Paypal</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-input dual">
+                    <div>
+                        <div class="dual-kit">
+                            <button type="button" class="ctaButton colored">Bank Transfer</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="form-input">
-                <label for="message">Comments (Not Required)</label>
-                <textarea placeholder="Message" id="message"></textarea>
-            </div>
-            <button type="button" class="ctaButton colored">Send Message</button>
         </div>
     </section>
     <section class="options-holder about">
