@@ -9,7 +9,7 @@
             <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sit sollicitudin egestas vulputate nibh. Rutrum habitasse nulla sagittis eu eget feugiat laoreet varius. Pretium, tincidunt dictum rhoncus sit sed. <br/><br/> In congue elementum vel ultrices. Nunc non quisque vitae nullam vitae mauris,
                 sed ultrices. Sit habitant risus auctor vestibulum, dis mollis aliquam mauris tristique.</p>
-            <a href="/team" class="ctaButton">View Our Team Members</a>
+            <a href="/about/team" class="ctaButton">View Our Team Members</a>
         </div>
         <div class="help-section">
             <div class="help-section_right">

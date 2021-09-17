@@ -14,8 +14,8 @@
             <a href="/" class="<?php if(strpos($url, 'home') !== false){echo 'active';}?>">Home</a>
             <a href="/about" class="<?php if(strpos($url, 'about') !== false){echo 'active';}?>">About Us</a>
             <a>Shop</a>
-            <a>Research</a>
-            <a>Events</a>
+            <a href="/research" class="<?php if(strpos($url, 'research') !== false){echo 'active';}?>">Research</a>
+            <a href="/events" class="<?php if(strpos($url, 'events') !== false){echo 'active';}?>">Events</a>
         </div>
         <a href="/donate" class="navButton <?php if(strpos($url, 'donate') !== false){echo 'active';}?>">
             <img src="/img/ribbon.webp" class="ribbon">
