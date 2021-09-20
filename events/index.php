@@ -4,12 +4,16 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </header>
 <main>
+    <div class="bodyBanner">
+        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+            Sit habitant risus auctor vestibulum, dis mollis aliquam mauris tristique.</p>
+    </div>
     <section class="eventsBanner">
         <h2>Upcoming Events</h2>
         <div class="d-events full">
             <div class="row">
                 <a class="events" href="/events/event?">
-                    <div class="events">
+                    <div class="events-hold">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -24,7 +28,7 @@
                     </div>
                 </a>
                 <a class="events" href="/events/event?">
-                    <div class="events">
+                    <div class="events-hold">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -39,7 +43,7 @@
                     </div>
                 </a>
                 <a class="events" href="/events/event?">
-                    <div class="events">
+                    <div class="events-hold">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -62,7 +66,7 @@
         <div class="d-events full">
             <div class="row">
                 <a class="events" href="/events/event?">
-                    <div class="events">
+                    <div class="events-hold">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -77,7 +81,7 @@
                     </div>
                 </a>
                 <a class="events" href="/events/event?">
-                    <div class="events">
+                    <div class="events-hold">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -92,7 +96,7 @@
                     </div>
                 </a>
                 <a class="events" href="/events/event?">
-                    <div class="events">
+                    <div class="events-hold">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
