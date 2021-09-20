@@ -14,25 +14,47 @@
     <section class="eventsBanner">
         <h2>Gallery</h2>
         <div class="d-events full gallery">
-            <div class="row">
-                <a class="events">
-                    <img src="/img/resourcesImage3.png" class="image">
-                </a>
-                <a class="events">
-                    <img src="/img/resourcesImage3.png" class="image">
-                </a>
-                <a class="events">
-                    <img src="/img/resourcesImage3.png" class="image">
-                </a>
-                <a class="events">
-                    <img src="/img/resourcesImage3.png" class="image">
-                </a>
-                <a class="events">
-                    <img src="/img/resourcesImage3.png" class="image">
-                </a>
-                <a class="events">
-                    <img src="/img/resourcesImage3.png" class="image">
-                </a>
+            <div class="resourcesRow">
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-events full gallery">
+            <div class="resourcesRow">
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
             </div>
         </div>
         <a href="/events" class="ctaButton">Return to events page</a>
