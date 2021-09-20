@@ -43,13 +43,47 @@
                 <h5>Are you making this donation in honor of someone?</h5>
                 <div class="row">
                     <div class="row-amt">
-                        <input id="amt1" name="amt" class="amt" type="radio" value="50">
-                        <label class="amt-hold" for="amt1">Yes</label>
+                        <input id="honour1" name="honour" class="amt" type="radio" value="yes">
+                        <label class="amt-hold" for="honour1">Yes</label>
                     </div>
                     <div class="row-amt">
-                        <input id="amt2" name="amt" class="amt" type="radio" value="100">
-                        <label class="amt-hold" for="amt2">No</label>
+                        <input id="honour2" name="honour" class="amt" type="radio" value="no">
+                        <label class="amt-hold" for="honour2">No</label>
                     </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="form-group">
+                <h5>Enter their information below</h5>
+                <div class="form-input dual">
+                    <label for="first-name">Honoree's Name (Required)</label>
+                    <div>
+                        <div class="dual-kit">
+                            <input type="text" placeholder="First Name" id="honor-first-name">
+                        </div>
+                        <div class="dual-kit">
+                            <input type="text" placeholder="Last Name" id="honor-last-name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="email">Recipient's Email (Not Required)</label>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+                <div class="form-input dual">
+                    <label for="first-name">Recipient's Name (Not Required)</label>
+                    <div>
+                        <div class="dual-kit">
+                            <input type="text" placeholder="First Name" id="receiver-first-name">
+                        </div>
+                        <div class="dual-kit">
+                            <input type="text" placeholder="Last Name" id="receiver-last-name">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-input">
+                    <label for="message">A message to the Recipient (Not Required)</label>
+                    <textarea placeholder="Message" id="message"></textarea>
                 </div>
             </div>
             <hr>
