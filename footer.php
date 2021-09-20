@@ -18,28 +18,28 @@
             <div id="footer_options">
                 <h4>EXPLORE</h4>
                 <ul class="footer_links">
-                    <li><a href="/">Home Page</a></li>
-                    <li><a href="/events/upcoming-events/">Upcoming Events</a></li>
-                    <li><a href="/research">View Our Research Work</a></li>
-                    <li><a href="#">Help Center</a></li>
+                    <a href="/"><li>Home Page</li></a>
+                    <a href="/events/upcoming-events/"><li>Upcoming Events</li></a>
+                    <a href="/research"><li>View Our Research Work</li></a>
+                    <a href="#"><li>Help Center</li></a>
                 </ul>
             </div>
             <div id="footer_options">
                 <h4>SUPPORT OUT EFFORTS</h4>
                 <ul class="footer_links">
-                    <li><a href="/donate">Donate</a></li>
-                    <li><a href="/shop">Buy From Our Gift Shop</a></li>
-                    <li><a href="/donate">Give in honor of Someone</a></li>
-                    <li><a href="/contact">Partner With Us</a></li>
+                    <a href="/donate"><li>Donate</li></a>
+                    <a href="/shop"><li>Buy From Our Gift Shop</li></a>
+                    <a href="/donate"><li>Give in honor of Someone</li></a>
+                    <a href="/contact"><li>Partner With Us</li></a>
                 </ul>
             </div>
             <div id="footer_options">
                 <h4>GET TO KNOW US</h4>
                 <ul class="footer_links">
-                    <li><a href="/about">Learn About TVN Foundation</a></li>
-                    <li><a href="/about/team">Our Team</a></li>
-                    <li><a href="/events/past-events/">Past Projects</a></li>
-                    <li><a href="/contact">Contact us</a></li>
+                    <a href="/about"><li>Learn About TVN Foundation</li></a>
+                    <a href="/about/team"><li>Our Team</li></a>
+                    <a href="/events/past-events/"><li>Past Projects</li></a>
+                    <a href="/contact"><li>Contact us</li></a>
                 </ul>
             </div>
         </div>
@@ -69,10 +69,10 @@
         &copy; The Victoria-Nwaeke Foundation for Cancer Research, Inc. is a US 501 (c)(3) non-profit organization. All rights reserved.
     </span>
     <ul class="shortLinks">
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Service</a></li>
-        <li><a href="#">Shipping Policy</a></li>
-        <li><a href="#">Refund Policy</a></li>
-        <li><a href="#">Cookie Policy</a></li>
+        <a href="#"><li>Privacy Policy</li></a>
+        <a href="#"><li>Terms of Service</li></a>
+        <a href="#"><li>Shipping Policy</li></a>
+        <a href="#"><li>Refund Policy</li></a>
+        <a href="#"><li>Cookie Policy</li></a>
     </ul>
 </div>
