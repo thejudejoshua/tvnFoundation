@@ -1,11 +1,11 @@
 * {
-    font-family: Josefin Sans;
     position: relative;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: Josefin Sans;
     font-size: 14px;
 }
 
@@ -154,9 +154,13 @@ label.amt-hold {
     display: inline-block;
     text-align: center;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 17px;
     cursor: pointer;
     width: 100%;
+}
+
+label.amt-hold span {
+    font-size: 12px;
 }
 
 label.amt-hold:hover {
@@ -540,7 +544,8 @@ Options section
 
 .options p,
 .resourcesRow .resources-box p,
-.newsletter-Text p {
+.newsletter-Text p,
+.research-list p {
     font-size: 18px;
     font-weight: 300;
     font-stretch: normal;
@@ -1173,6 +1178,7 @@ copyright section
 .shortLinks li {
     list-style: disc;
     margin-left: 15px;
+    font-size: 10px;
 }
 
 .shortLinks li:nth-of-type(1) {
@@ -1517,4 +1523,133 @@ our team page
     height: 100%;
     object-fit: cover;
     object-position: top;
+}
+
+
+/*
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Pagination section
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+*/
+
+#paginate {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    padding: 90px 0 50px;
+}
+
+#paginate p {
+    margin: 0 35px;
+}
+
+#paginate a#direct {
+    border: solid 1px #8e8e8e;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #8e8e8e;
+    transition: 0.8s;
+}
+
+#paginate a#direct:hover {
+    background: #8e8e8e;
+    color: #fff;
+}
+
+
+/*
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+research section
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+*/
+
+.research-resource-left {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.research-resource-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.research-resource-right {
+    display: inline-block;
+    width: 85%;
+    margin-left: 2%;
+}
+
+.research-resource {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 30px;
+    border-top: 1px solid #dfdfdf;
+    transition: 0.6s;
+    z-index: 1;
+    border-radius: 0;
+}
+
+.research-list a:last-child .research-resource {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.research-resource:hover {
+    box-shadow: 1px 5px 9px 4px rgba(0, 0, 0, 0.09);
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.research-list,
+.resource-reader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 130px;
+}
+
+.resource-reader {
+    padding: 100px 130px 100px;
+}
+
+.research-resource-reader-bottom {
+    margin-top: 60px;
+}
+
+.resource-reader p {
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.resource-cta {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.resource-cta p {
+    margin-top: 15px;
+}
+
+.resource-cta p a {
+    text-decoration: underline;
+    color: #10653d;
+    font-weight: 600;
 }

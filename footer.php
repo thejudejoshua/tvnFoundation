@@ -4,11 +4,11 @@
                 <h3>Subscribe for Email Updates</h3>
                 <p>You’ll get emails weekly with inspiring stories from around the world, news and information about the global water crisis, and tangible ways you can get involved and help people in need.</p>
             </div>
-            <div class="newsletter_ctA">
+            <form class="newsletter_ctA">
                 <input type="text" placeholder="First Name" required>
                 <input type="email" placeholder="Email" required>
-                <a href="" class="ctaButton colored">Subscribe</a>
-            </div>
+                <button type="submit" class="ctaButton colored">Subscribe</button>
+            </form>
         </div>
     </section>
 </main>
@@ -69,10 +69,10 @@
         &copy; The Victoria-Nwaeke Foundation for Cancer Research, Inc. is a US 501 (c)(3) non-profit organization. All rights reserved.
     </span>
     <ul class="shortLinks">
-        <a href="#"><li>Privacy Policy</li></a>
-        <a href="#"><li>Terms of Service</li></a>
-        <a href="#"><li>Shipping Policy</li></a>
-        <a href="#"><li>Refund Policy</li></a>
-        <a href="#"><li>Cookie Policy</li></a>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Shipping Policy</a></li>
+        <li><a href="#">Refund Policy</a></li>
+        <li><a href="#">Cookie Policy</a></li>
     </ul>
 </div>

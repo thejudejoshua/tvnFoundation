@@ -38,8 +38,8 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.</p>
             </div>
             <div class="help_cta">
-                <a href="" class="ctaButton">View Our Past Projects</a>
-                <a href="" class="ctaButton colored">View Upcoming Events</a>
+                <a href="/events/past-events/" class="ctaButton">View Our Past Projects</a>
+                <a href="/events/upcoming-events/" class="ctaButton colored">View Upcoming Events</a>
             </div>
         </div>
     </section>

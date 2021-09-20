@@ -156,6 +156,7 @@
                 </a>
             </div>
         </div>
+        <?php include_once '../../paginate.php'?>
         <a href="/events" class="ctaButton">Return to events page</a>
     </section>
     <section class="options-holder about">
