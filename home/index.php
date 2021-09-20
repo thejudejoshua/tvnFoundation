@@ -83,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="" class="ctaButton">View our past projects</a>
+                <a href="/events/past-events" class="ctaButton">View our past projects</a>
             </div>
         </div>
     </section>
@@ -97,7 +97,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.</p>
                     </div>
                 </div>
-                <a href="" class="ctaButton">View Resources</a>
+                <a href="/research" class="ctaButton">View Resources</a>
             </div>
             <div class="options">
                 <div class="options-top">
@@ -107,7 +107,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.</p>
                     </div>
                 </div>
-                <a href="" class="ctaButton">View Our Events</a>
+                <a href="/events" class="ctaButton">View Our Events</a>
             </div>
             <div class="options">
                 <div class="options-top">
@@ -139,7 +139,7 @@
             </div>
             <div class="events-box">
                 <div class="row">
-                    <div class="events">
+                    <a href="/events/event?" class="events">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -151,8 +151,8 @@
                             <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
                             <p>Live Garden, Garki, Abuja</p>
                         </div>
-                    </div>
-                    <div class="events">
+                    </a>
+                    <a href="/events/event?" class="events">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -164,8 +164,8 @@
                             <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
                             <p>Live Garden, Garki, Abuja</p>
                         </div>
-                    </div>
-                    <div class="events">
+                    </a>
+                    <a href="/events/event?" class="events">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -177,8 +177,8 @@
                             <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
                             <p>Live Garden, Garki, Abuja</p>
                         </div>
-                    </div>
-                    <div class="events">
+                    </a>
+                    <a href="/events/event?" class="events">
                         <div class="Date">
                             <h1>20</h1>
                             <h3>October</h3>
@@ -190,11 +190,11 @@
                             <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
                             <p>Live Garden, Garki, Abuja</p>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <a href="" class="ctaButton">View all Upcoming Events</a>
+        <a href="/events/upcoming-events/" class="ctaButton">View all Upcoming Events</a>
     </section>
     <section class="resourcesBanner">
         <h2>Research</h2>
@@ -218,7 +218,7 @@
                 </p>
             </div>
         </div>
-        <a href="" class="ctaButton">View all Research</a>
+        <a href="/research" class="ctaButton">View all Research</a>
     </section>
     <section class="help-section">
         <div class="help-section_left">
