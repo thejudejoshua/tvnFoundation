@@ -9,5 +9,19 @@ $(document).ready(function() {
         }
         return false;
     });
+    //--------------------------------------------------------------------alert Box 
+    $('form.newsletter_ctA .ctaButton, .contact-form_ctA .ctaButton').click(function() {
+        if (!$(this).parent().children("input").val()) {
+            $(".alert h2").text("Error!");
+            $(".alert p").text("Your action could not be completed successfully. Please try again.");
+            $(".alert").addClass("show error");
+            setTimeout('$(".alert").removeClass("show error")', 4500);
+        } else {
+            $(".alert h2").text("Success!");
+            $(".alert p").text("Your action was completed succesfully. Our team will reach out to you soon. Thank you.");
+            $(".alert").addClass("show");
+            setTimeout('$(".alert").removeClass("show")', 4500);
+        }
+    });
 
 })

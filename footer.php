@@ -7,8 +7,12 @@
             <form class="newsletter_ctA">
                 <input type="text" placeholder="First Name" required>
                 <input type="email" placeholder="Email" required>
-                <button type="submit" class="ctaButton colored">Subscribe</button>
+                <button type="button" class="ctaButton colored">Subscribe</button>
             </form>
+        </div>
+        <div class="alert">
+            <h2>Success!</h2>
+            <p>Your action was completed succesfully. Our team will reach out to you soon. Thank you.</p>
         </div>
     </section>
 </main>

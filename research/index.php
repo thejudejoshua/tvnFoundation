@@ -4,6 +4,8 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </header>
 <main>
+    <?php include_once '../filter.php'?>
+
     <section class="research-list">
         <div class="row">
             <a href="/research/resource?">
@@ -13,8 +15,7 @@
                     </div>
                     <div class="research-resource-right">
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
-                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...
-                        </p>
+                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...</p>
                     </div>
                 </div>
             </a>
@@ -25,8 +26,7 @@
                     </div>
                     <div class="research-resource-right">
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
-                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...
-                        </p>
+                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...</p>
                     </div>
                 </div>
             </a>
@@ -37,8 +37,7 @@
                     </div>
                     <div class="research-resource-right">
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
-                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...
-                        </p>
+                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...</p>
                     </div>
                 </div>
             </a>
@@ -49,8 +48,7 @@
                     </div>
                     <div class="research-resource-right">
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
-                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...
-                        </p>
+                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...</p>
                     </div>
                 </div>
             </a>
@@ -61,8 +59,7 @@
                     </div>
                     <div class="research-resource-right">
                         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
-                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...
-                        </p>
+                        <p>The Victoria-Nwaeke Foundation for Cancer and research was founded in 2021 with the aim to support and advocate the prevention and early detection of the different types of cancer by Lorem ipsum dolor sit amet...</p>
                     </div>
                 </div>
             </a>

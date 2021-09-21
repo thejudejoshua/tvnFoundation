@@ -129,7 +129,7 @@
                 <h6>With a gift from our Online store...</h6>
             </div>
         </div>
-        <a href="" class="ctaButton">Shop for Items</a>
+        <a href="/shop" class="ctaButton">Shop for Items</a>
     </section>
     <section class="eventsBanner">
         <h2>Upcoming Events</h2>
@@ -199,24 +199,30 @@
     <section class="resourcesBanner">
         <h2>Research</h2>
         <div class="resourcesRow">
-            <div class="resources-box">
-                <img src="/img/resourcesImage.png" class="image">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
-                </p>
-            </div>
-            <div class="resources-box">
-                <img src="/img/resourcesImage2.png" class="image">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
-                </p>
-            </div>
-            <div class="resources-box">
-                <img src="/img/resourcesImage3.png" class="image">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
-                </p>
-            </div>
+            <a href="/research/resource?">
+                <div class="resources-box">
+                    <img src="/img/resourcesImage.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+            </a>
+            <a href="/research/resource?">
+                <div class="resources-box">
+                    <img src="/img/resourcesImage2.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+            </a>
+            <a href="/research/resource?">
+                <div class="resources-box">
+                    <img src="/img/resourcesImage3.png" class="image">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vel in sed malesuada libero diam scelerisque.
+                    </p>
+                </div>
+            </a>
         </div>
         <a href="/research" class="ctaButton">View all Research</a>
     </section>
@@ -237,4 +243,4 @@
         </div>
     </section>
 
-<?php include_once '../footer.php'?>
+    <?php include_once '../footer.php'?>
