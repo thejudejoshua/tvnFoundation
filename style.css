@@ -386,10 +386,14 @@ img.logo {
 }
 
 .mobile-toggler div {
-    width: 30px;
+    width: 20px;
     height: 2px;
     background: #10653d;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+}
+
+.mobile-toggler div:last-child {
+    margin-bottom: 0;
 }
 
 /*
