@@ -314,12 +314,12 @@ img.logo {
 }
 .sub-menu {
     position: absolute;
-    width: auto;
+    width: 150px;
     top: 100%;
     background: white;
     border-radius: 15px;
     box-shadow: 0 5px 30px 3px rgb(0 0 0 / 10%);
-    padding: 0 10px;
+    padding: 20px 10px;
     display: none;
     z-index: 1;
 }
