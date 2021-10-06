@@ -70,7 +70,12 @@
             </div>
             <div class="form-input">
                 <label for="phone-number">Phone Number (Required)</label>
-                <input type="tel" placeholder="Phone Number" id="phone-number">
+                <div class="countryCode-select">
+                    <select name="countryCode" id="countryCode">
+                        <option selected>+234</option>
+                    </select>
+                    <input type="tel" placeholder="Phone Number" id="phone-number">
+                </div>
             </div>
             <div class="form-input">
                 <label for="email">Email (Required)</label>

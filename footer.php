@@ -24,7 +24,7 @@
                 <ul class="footer_links">
                     <a href="/"><li>Home Page</li></a>
                     <a href="/events/upcoming-events/"><li>Upcoming Events</li></a>
-                    <a href="/research"><li>View Our Research Work</li></a>
+                    <a href="/research"><li>View Our Stories</li></a>
                     <a href="#"><li>Help Center</li></a>
                 </ul>
             </div>

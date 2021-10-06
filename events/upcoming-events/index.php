@@ -11,149 +11,141 @@
     <section class="eventsBanner">
         <div class="d-events full">
             <div class="row">
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="d-events full">
-            <div class="row">
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="d-events full">
-            <div class="row">
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
-                <a class="events" href="/events/event?">
-                    <div class="events-hold">
-                        <div class="Date">
-                            <h1>20</h1>
-                            <h3>October</h3>
-                        </div>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <div class="events_footer">
-                            <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
-                            <p>Live Garden, Garki, Abuja</p>
-                        </div>
-                    </div>
-                </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
+              <a class="events" href="/events/event?">
+                  <div class="events-hold">
+                      <div class="Date">
+                          <h1>20</h1>
+                          <h3>October</h3>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <div class="events_footer">
+                          <img src="/img/loc_icon.png" srcset="/img/loc_icon@2x.png 2x,img/loc_icon@3x.png 3x" class="icon">
+                          <p>Live Garden, Garki, Abuja</p>
+                      </div>
+                  </div>
+              </a>
             </div>
         </div>
         <?php include_once '../../paginate.php'?>

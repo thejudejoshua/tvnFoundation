@@ -1,0 +1,316 @@
+@import "style.css";
+@media screen and (max-width: 992px) {
+    .successStory,
+    .eventsBanner {
+        padding: 100px 50px;
+        flex-direction: column;
+    }
+    .successStory img {
+        width: 100%;
+        height: auto;
+    }
+    .success-teller {
+        width: 100%;
+        padding-top: 60px;
+    }
+    .options-holder {
+        flex-direction: column;
+        padding: 100px 50px;
+    }
+    .options {
+        width: 100%;
+        padding-right: 40px;
+        margin-bottom: 100px;
+        align-items: center;
+    }
+
+.team-portraits-section .options {
+    width: 46%;
+    margin-right: 4%;
+    padding-right: 0;
+}
+
+.team-portraits-section .options:nth-of-type(3n+3) {
+    margin-right: 4%;
+}
+
+.team-portraits-section .options .team-portrait {
+    height: 300px;
+}
+
+.team-portraits-section .options .team-portrait img {
+}
+
+.team-portraits-section .options:nth-of-type(even) {
+    margin-right: 0;
+}
+    .d-events {
+        flex-direction: column;
+    }
+    .events-left {
+        width: 100%;
+    }
+    .events-box {
+        width: 100%;
+    }
+    .events {
+        width: 350px;
+    }
+    .resourcesBanner {
+        padding: 100px 50px;
+    }
+    .resourcesRow {
+        flex-direction: column;
+    }
+    .resourcesRow a {
+        width: 100%;
+    }
+    .resourcesRow .resources-box img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .help-section_left {
+        display: none;
+    }
+
+    .help-section_right p {
+        text-align: center;
+    }
+    .help-section_right {
+        width: 100%;
+        align-items: center;
+    }
+    section.help-section {
+        padding: 100px 50px;
+    }
+    .help_cta {
+        width: 100%;
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .options h3 {
+        text-align: center;
+    }
+
+    .options p, .resourcesRow .resources-box p, .newsletter-Text p {
+        text-align: center;
+    }
+    .newsletter-Text {
+        width: 100%;
+    }
+    .newsLetter-section {
+        padding: 100px 50px;
+    }
+    .footer-options {
+        display: inline-table;
+        width: 100%;
+    }
+    #footer_options {
+        display: inline-block;
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .contacts {
+        flex-direction: column;
+    }
+    .footer_social_icons {
+        width: 100%;
+    }
+    .contact-details {
+        width: 100%;
+    }
+    .copyright {
+        flex-direction: column;
+    }
+    .ctaButton {
+        width: auto;
+        text-align: center;
+        font-size: 12px;
+        display: inline-block;
+    }
+
+    .options-text {
+    }
+
+    img.options-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .options-top {
+        text-align: center;
+    }
+
+    .navLinks {
+        display: none;
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        padding: 60px 30px;
+        text-align: center;
+        right: 0;
+        border-radius: 0 0 20px 20px;
+        box-shadow: 0px 9px 30px 2px rgb(0 0 0 / 10%);
+        width: 100%;
+    }
+
+.shop.navigation .navLinks {
+    display: none;
+}
+
+    .navLinks a {
+        display: table;
+        text-align: center;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .navButton, .navButton.variant {
+        margin: 0 auto;
+    }
+
+    .navigation {
+        padding: 30px 70px;
+    }
+
+    header#home {
+        height: 600px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .homeBanner {
+        display: inline-block;
+        padding-left: 70px;
+        top: 36%;
+    }
+
+    .landing_donate {
+        display: none;
+    }
+
+    main#home .bodyBanner p {
+        width: 90%;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .mobile-toggler {
+        display: block;
+        cursor: pointer;
+    }
+    #breadcrumb {
+        padding: 150px 50px 50px;
+    }
+
+    .bodyBanner {
+        padding-top: 100px;
+    }
+
+    section#about div.help-section_right {
+        width: 100%;
+    }
+
+    .bodyBanner p {
+        width: 100%;
+    }
+
+    section#objectives .bodyBanner ul {
+        flex-direction: column;
+    }
+
+    section#objectives .bodyBanner ul li {
+        width: 100%;
+    }
+    .newsletter_ctA {
+        width: 90%;
+    }
+    .contact-form-holder {
+        flex-direction: column;
+    }
+
+    .contactBanner, .contact-form_ctA {
+        width: 100%;
+    }
+
+    main#contact .contact-form_ctA {width: 100%;}
+    #contact.donate .contactBanner, #contact.donate .contact-form_ctA {
+        width: 100%;
+        border-left: none;
+        padding: 0;
+    }
+    .d-events.full a.events:nth-of-type(even) {
+        margin-right: 0;
+    }
+
+    .d-events.full a.events:nth-of-type(odd) {
+        margin-right: 3%;
+    }
+
+    .d-events.full .events {
+        width: 47%;
+        margin-right: 3%;
+    }
+    .research-resource {
+        padding: 30px;
+    }
+
+    .research-resource-right h3 {
+        text-align: left;
+    }
+
+    .research-resource-right {
+        margin-left: 4%;
+    }
+
+    .research-resource-right p {
+        text-align: left;
+    }
+    .resource-reader {
+        padding: 100px 70px;
+    }
+    .resource-reader p {
+        text-align: center;
+    }
+    .shop-options-holder .row a {
+        width: 47%;
+        margin-right: 3%;
+    }
+
+    .shop-options-holder .row a:nth-of-type(even) {
+        margin-right: 0;
+    }
+    .shop.navigation .navLinks .shop-links {
+        display: none;
+    }
+    .mobile-view {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .mobile-shop-links {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .home_text a.ctaButton.colored.mobile-btn {
+        display: inline-block;
+    }
+    .landing-cta {
+        width: 100%;
+    }
+
+    .home_text {
+        width: 100%;
+    }
+}

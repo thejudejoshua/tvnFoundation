@@ -56,10 +56,6 @@
                         </div>
                     </div>
                 </a>
-            </div>
-        </div>
-        <div class="d-events full">
-            <div class="row">
                 <a class="events" href="/events/event?">
                     <div class="events-hold">
                         <div class="Date">
@@ -105,10 +101,6 @@
                         </div>
                     </div>
                 </a>
-            </div>
-        </div>
-        <div class="d-events full">
-            <div class="row">
                 <a class="events" href="/events/event?">
                     <div class="events-hold">
                         <div class="Date">

@@ -5,39 +5,42 @@
             <h1 class="landing-title">
                 Join the fight to provide a Breast-cancer free generation for women.
             </h1>
-            <a href="#about" class="ctaButton colored">Learn More <img src="/img/home-down-icon.png" class="image"></a>
+            <div class="landing-cta">
+                <a href="#about" class="ctaButton colored">Learn More <img src="/img/home-down-icon.png" class="image"></a>
+                <a href="/donation" class="ctaButton colored mobile-btn">Make a donation</a>
+            </div>
         </div>
         <div class="landing_donate">
             <form class="contact-form_cta">
                 <div class="form-group">
                     <label>
-                            Choose an amount to Donate
-                        </label>
-
+                        Choose an amount to Donate
+                    </label>
                     <div class="row">
                         <div class="row-amt">
-                            <input id="amt1" name="amt" class="amt" type="radio" value="50">
-                            <label class="amt-hold" for="amt1">$50 <span>USD</span></label>
+                            <input id="amt1" name="amt" class="amt" type="radio" value="10">
+                            <label class="amt-hold" for="amt1">$10 <span>USD</span></label>
                         </div>
                         <div class="row-amt">
-                            <input id="amt2" name="amt" class="amt" type="radio" value="100">
-                            <label class="amt-hold" for="amt2">$100 <span>USD</span></label>
+                            <input id="amt2" name="amt" class="amt" type="radio" value="20">
+                            <label class="amt-hold" for="amt2">$20 <span>USD</span></label>
                         </div>
                         <div class="row-amt">
-                            <input id="amt3" name="amt" class="amt" type="radio" value="150">
-                            <label class="amt-hold" for="amt3">$150 <span>USD</span></label>
+                            <input id="amt3" name="amt" class="amt" type="radio" value="50">
+                            <label class="amt-hold" for="amt3">$50 <span>USD</span></label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="row-amt">
-                            <input id="amt4" name="amt" class="amt" type="radio" value="200">
-                            <label class="amt-hold" for="amt4">$200 <span>USD</span></label>
+                            <input id="amt4" name="amt" class="amt" type="radio" value="100">
+                            <label class="amt-hold" for="amt4">$100 <span>USD</span></label>
                         </div>
                         <div class="row-amt full">
                             <input id="amt5" name="amt" class="amt" type="text" placeholder="Enter other amount...">
                         </div>
                     </div>
                     <div class="Line-7"></div>
+                    <p>Your $10 donation pays for HPV screening for one woman in North-east Nigeria</p>
                     <a href="/donate" type="button" class="ctaButton colored">Make your Donation</a>
                 </div>
             </form>
@@ -197,7 +200,7 @@
         <a href="/events/upcoming-events/" class="ctaButton">View all Upcoming Events</a>
     </section>
     <section class="resourcesBanner">
-        <h2>Research</h2>
+        <h2>Our Stories</h2>
         <div class="resourcesRow">
             <a href="/research/resource?">
                 <div class="resources-box">
@@ -224,7 +227,7 @@
                 </div>
             </a>
         </div>
-        <a href="/research" class="ctaButton">View all Research</a>
+        <a href="/research" class="ctaButton">View all Stories</a>
     </section>
     <section class="help-section">
         <div class="help-section_left">

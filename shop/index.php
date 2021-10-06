@@ -52,8 +52,6 @@
                     </div>
                 </div>
             </a>
-        </div>
-        <div class="row">
             <a href="/shop/product?">
                 <div class="product">
                     <div class="product-top">
@@ -98,8 +96,6 @@
                     </div>
                 </div>
             </a>
-        </div>
-        <div class="row">
             <a href="/shop/product?">
                 <div class="product">
                     <div class="product-top">

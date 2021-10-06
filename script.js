@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    //--------------------------------------------------------------------navigationLinks 
+    //--------------------------------------------------------------------navigationLinks
     $('a[href^="#"]').click(function() {
         let target = $(this).attr('href');
         if (target.length) {
@@ -9,7 +9,7 @@ $(document).ready(function() {
         }
         return false;
     });
-    //--------------------------------------------------------------------alert Box 
+    //--------------------------------------------------------------------alert Box
     $('form.newsletter_ctA .ctaButton, .contact-form_ctA .ctaButton').click(function() {
         if (!$(this).parent().children("input").val()) {
             $(".alert h2").text("Error!");
@@ -22,6 +22,10 @@ $(document).ready(function() {
             $(".alert").addClass("show");
             setTimeout('$(".alert").removeClass("show")', 4500);
         }
+    });
+    //--------------------------------------------------------------------alert Box
+    $('.mobile-toggler').click(function() {
+      $('.navLinks').toggle();
     });
 
 })

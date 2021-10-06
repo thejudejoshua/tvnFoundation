@@ -25,7 +25,7 @@
                 lacinia quam tincidunt non.</p>
         </div>
         <div class="resource-cta">
-            <a href="#" class="ctaButton">Download</a>
+            <a href="#" class="ctaButton">Download as PDF</a>
             <p>Let's <a href="/research/">head back</a> to Research</p>
         </div>
     </section>

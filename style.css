@@ -51,8 +51,15 @@ header#home {
     padding: 10px;
 }
 
-.home_text a {
+.home_text a.ctaButton.colored {
     padding: 13px 60px 20px;
+    margin-left: 0;
+}
+
+.home_text a.ctaButton.colored.mobile-btn {
+    padding-top: 22px;
+    display: none;
+    margin-left: 10px;
 }
 
 .home_text a img {
@@ -90,7 +97,7 @@ header#home {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 35px;
+    gap: 20px;
     padding: 0;
 }
 
@@ -209,10 +216,14 @@ input.amt:checked+label.amt-hold {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 50px 30px;
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 0 5px 30px 10px rgba(16, 101, 61, 0.1);
     background-color: #fff;
+}
+
+.landing_donate label {
+    font-size: 16px;
 }
 
 .navigation {
@@ -221,7 +232,7 @@ input.amt:checked+label.amt-hold {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 70px;
+    padding: 15px 70px;
     box-shadow: 0 5px 30px 3px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     position: fixed;
@@ -238,8 +249,8 @@ img.logo {
 }
 
 .navLinks {
-    width: 65%;
-    padding: 30px 0;
+    width: 70%;
+    padding: 15px 0;
     text-align: right;
 }
 
@@ -247,12 +258,17 @@ img.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 55%;
 }
 
 .shop.navigation .navLinks .shop-links {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+}
+
+.mobile-view {
+    display: none;
 }
 
 .links {
@@ -271,7 +287,9 @@ img.logo {
     color: #000;
     padding: 0 15px;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 .links a::after {
@@ -322,7 +340,7 @@ img.logo {
 
 .navButton span {
     flex-grow: 0;
-    font-weight: 600;
+    font-weight: 700;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -333,16 +351,29 @@ img.logo {
     float: right;
     top: 3px;
     margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 .navButton img {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     flex-grow: 0;
     object-fit: contain;
     float: left;
 }
 
+
+.mobile-toggler {
+    display: none;
+}
+
+.mobile-toggler div {
+    width: 30px;
+    height: 2px;
+    background: #10653d;
+    margin-bottom: 5px;
+}
 
 /*
 ----
@@ -1238,7 +1269,7 @@ contact page
 #breadcrumb {
     width: 100%;
     left: 0px;
-    padding: 200px 400px 100px;
+    padding: 150px 200px 50px;
     background: linear-gradient(89.06deg, #FFFFFF 3.82%, #E6F7EE 68.61%);
 }
 
@@ -1343,7 +1374,7 @@ main#contact .contact-form_ctA {
 
 .contact-form_ctA .form-input {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .contact-form_ctA .form-input label {
@@ -1396,6 +1427,20 @@ main#contact .contact-form_ctA {
     border: solid 1px #10653d;
     font-size: 14px;
     resize: none;
+}
+.form-input .countryCode-select select {
+    width: 30%;
+    display: inline-block;
+}
+
+.form-input .countryCode-select input {
+    width: 70%;
+    display: inline-block;
+}
+
+.countryCode-select {
+    display: flex;
+    gap: 5px;
 }
 
 
@@ -1633,7 +1678,7 @@ research section
     display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 80px 30px;
     border-top: 1px solid #dfdfdf;
     transition: 0.6s;
@@ -1779,7 +1824,7 @@ products section
     border-radius: 15px;
 }
 
-.shop-options-holder .row a:last-child {
+.shop-options-holder .row a:nth-of-type(4n+4) {
     margin-right: 0;
 }
 

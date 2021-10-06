@@ -7,7 +7,7 @@
     <section class="contact-form-holder">
         <div class="contactBanner">
             <div class="contactForm_text">
-                <p>By providing breast health education, early detection services, and a helping hand to those facing breast cancer, NBCF is there at every step of the journey. This is what sets NBCF apart from other organizations and you can be a part of this!<br/><br/>NBCF is committed to treating your gift with integrity. On average, over 80% of our spending is directed back into our programs that support women facing breast cancer.</p>
+                <p>By providing breast health education, early detection services, and a helping hand to those facing breast cancer, TVNR Cancer Foundation is there at every step of the journey. This is what sets TVNR Cancer Foundation apart from other organizations and you can be a part of this!<br/><br/>TVNR Cancer Foundation is committed to treating your gift with integrity. On average, over 80% of our spending is directed back into our programs that support women facing breast cancer.</p>
             </div>
         </div>
         <div class="contact-form_ctA">
@@ -15,22 +15,22 @@
                 <h5>Choose an amount to Donate</h5>
                 <div class="row">
                     <div class="row-amt">
-                        <input id="amt1" name="amt" class="amt" type="radio" value="50">
-                        <label class="amt-hold" for="amt1">$50 <span>USD</span></label>
+                        <input id="amt1" name="amt" class="amt" type="radio" value="10">
+                        <label class="amt-hold" for="amt1">$10 <span>USD</span></label>
                     </div>
                     <div class="row-amt">
-                        <input id="amt2" name="amt" class="amt" type="radio" value="100">
-                        <label class="amt-hold" for="amt2">$100 <span>USD</span></label>
+                        <input id="amt2" name="amt" class="amt" type="radio" value="20">
+                        <label class="amt-hold" for="amt2">$20 <span>USD</span></label>
                     </div>
                     <div class="row-amt">
-                        <input id="amt3" name="amt" class="amt" type="radio" value="150">
-                        <label class="amt-hold" for="amt3">$150 <span>USD</span></label>
+                        <input id="amt3" name="amt" class="amt" type="radio" value="50">
+                        <label class="amt-hold" for="amt3">$50 <span>USD</span></label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="row-amt">
-                        <input id="amt4" name="amt" class="amt" type="radio" value="200">
-                        <label class="amt-hold" for="amt4">$200 <span>USD</span></label>
+                        <input id="amt4" name="amt" class="amt" type="radio" value="100">
+                        <label class="amt-hold" for="amt4">$100 <span>USD</span></label>
                     </div>
                 </div>
                 <div class="form-input">
@@ -106,7 +106,12 @@
                 </div>
                 <div class="form-input">
                     <label for="phone-number">Phone Number (Not Required)</label>
-                    <input type="tel" placeholder="Phone Number" id="phone-number">
+                    <div class="countryCode-select">
+                        <select name="countryCode" id="countryCode">
+                            <option selected>+234</option>
+                        </select>
+                        <input type="tel" placeholder="Phone Number" id="phone-number">
+                    </div>
                 </div>
                 <div class="form-input">
                     <label for="message">Comments (Not Required)</label>
