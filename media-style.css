@@ -158,12 +158,12 @@ main:not(#home) .options {
     }
 
     .options h3 {
-        text-align: center;
+        text-align: left;
         font-size: 15px;
     }
 
     .options p, .resourcesRow .resources-box p, .newsletter-Text p {
-        text-align: center;
+        text-align: left;
         font-size: 14px;
     }
     .newsletter-Text {
@@ -218,6 +218,7 @@ footer {
 }
 
     .options-text {
+    text-align: left;
     }
 
     img.options-image {
@@ -404,9 +405,7 @@ footer {
         text-align: left;
     }
 
-.options p, .resourcesRow .resources-box p, .newsletter-Text p, .research-list p {
-    font-size: 14px;
-}
+
 .filter-holder {
     padding: 20px 20px 0;
 }
