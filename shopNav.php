@@ -26,13 +26,17 @@
         </div>
     </div>
     <div class="navLinks">
-        <div class="links">
-            <a href="/">Home</a>
-            <a href="/about">About Us</a>
-            <a href="/shop" class="<?php if(strpos($url, 'shop') !== false){echo 'active';}?>">Shop</a>
-            <a href="/research">Research</a>
-            <a href="/events">Events</a>
-        </div>
+      <ul class="links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About Us</a>
+            <div class="sub-menu">
+              <a href="/about/team/">Our Team</a>
+            </div>
+          </li>
+          <li><a href="/shop" class="<?php if(strpos($url, 'shop') !== false){echo 'active';}?>">Shop</a></li>
+          <li><a href="/research">Our Stories</a></li>
+          <li><a href="/events">Events</a></li>
+      </ul>
         <div class="shop-links">
             <a href="#"><img src="/img/shop-search.png" class="icon"></a>
             <a href="#"><img src="/img/shop-cart.png" class="icon"></a>

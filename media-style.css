@@ -160,17 +160,20 @@
 
 .shop.navigation .navLinks {
     display: none;
+    width: 100%;
 }
 
-    .navLinks a {
+    .navLinks li, .navLinks li a{
         display: table;
         text-align: center;
-        width: auto;
-        margin-bottom: 20px;
+        margin: 0 auto 15px;
     }
 
+.links {width: 100%;}
+
     .navButton, .navButton.variant {
-        margin: 0 auto;
+        margin: 0 auto 20px;
+        display: table;
     }
 
     .navigation {

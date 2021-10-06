@@ -19,13 +19,17 @@
         <div></div>
     </div>
     <div class="navLinks">
-        <div class="links">
-            <a href="/" class="<?php if(strpos($url, 'home') !== false){echo 'active';}?>">Home</a>
-            <a href="/about" class="<?php if(strpos($url, 'about') !== false){echo 'active';}?>">About Us</a>
-            <a href="/shop" class="<?php if(strpos($url, 'shop') !== false){echo 'active';}?>">Shop</a>
-            <a href="/research" class="<?php if(strpos($url, 'research') !== false){echo 'active';}?>">Our Stories</a>
-            <a href="/events" class="<?php if(strpos($url, 'events') !== false){echo 'active';}?>">Events</a>
-        </div>
+        <ul class="links">
+            <li><a href="/" class="<?php if(strpos($url, 'home') !== false){echo 'active';}?>">Home</a></li>
+            <li><a href="/about" class="<?php if(strpos($url, 'about') !== false){echo 'active';}?>">About Us</a>
+              <div class="sub-menu">
+                <a href="/about/team/">Our Team</a>
+              </div>
+            </li>
+            <li><a href="/shop" class="<?php if(strpos($url, 'shop') !== false){echo 'active';}?>">Shop</a></li>
+            <li><a href="/research" class="<?php if(strpos($url, 'research') !== false){echo 'active';}?>">Our Stories</a></li>
+            <li><a href="/events" class="<?php if(strpos($url, 'events') !== false){echo 'active';}?>">Events</a></li>
+        </ul>
         <a href="/donate" class="navButton <?php if(strpos($url, 'donate') !== false){echo 'active';}?>">
             <img src="/img/ribbon.webp" class="ribbon">
             <span class="Donate">Donate</span>

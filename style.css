@@ -275,6 +275,13 @@ img.logo {
     width: auto;
     display: inline-block;
 }
+.links li{
+    display: inline-block;
+}
+
+.links li:hover .sub-menu {
+    display: block;
+}
 
 .links a {
     flex-grow: 0;
@@ -305,7 +312,17 @@ img.logo {
 .links a.active::after {
     width: 70%;
 }
-
+.sub-menu {
+    position: absolute;
+    width: auto;
+    top: 100%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px 3px rgb(0 0 0 / 10%);
+    padding: 0 10px;
+    display: none;
+    z-index: 1;
+}
 .navButton {
     padding: 12px 25px;
     border-radius: 50px;
@@ -726,7 +743,7 @@ Events banner section
 .d-events.full .events {
     width: 30%;
     margin-right: 4%;
-    margin-bottom: 30px;
+    margin-bottom: 4%;
 }
 
 .d-events.full.gallery .events {
